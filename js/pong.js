@@ -89,19 +89,6 @@ var pong = function () {
 	}
 
 	gameLoop();
-	//gameSnd.stopGameSound();
-
-	// Get the score
-	/*
-	this.getScore = function () {
-		return player.getPoints();
-	}
-
-	// Set the score
-	this.setHighScore = function (value) {
-		gameState.setHighScore(value);
-	}
-	*/
 }
 
 pong();
